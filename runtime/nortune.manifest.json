@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "repository": "officialjivaro/website-nortune-net",
+  "runtimePath": "public/calculators/loan-repayment-calculator/app/",
+  "files": [
+    {
+      "path": "assets/index-Bo5rV5V2.css",
+      "bytes": 22709,
+      "sha256": "dcac3f129ff4939c963ee786baa3a2b0eac919dd2d52a14042ce6814296e3550"
+    },
+    {
+      "path": "assets/index-DBlSM0Iu.js",
+      "bytes": 140787,
+      "sha256": "9bfe0c65052adb0f960a95b663b8b4db625704c4f45e885aa2d57819e82112a9"
+    },
+    {
+      "path": "assets/nortune-runtime-enhancements-dcbe709c.js",
+      "bytes": 4567,
+      "sha256": "f942b8bd1a0923e76e42234118d920628a674e4085942e80ae98caf4c727235e"
+    },
+    {
+      "path": "assets/nortune-storage-guard-c4f8a1.js",
+      "bytes": 1028,
+      "sha256": "c5f347d92355402e2283d4c383aaf80133e1a0c8facb02b9f3a01e565d033ade"
+    },
+    {
+      "path": "index.html",
+      "bytes": 1973,
+      "sha256": "c2268aa33931605d6021facdc5393ddb29ad7f14a99b875b8ecc41a313749834"
+    }
+  ]
+}
