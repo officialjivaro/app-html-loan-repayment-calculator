@@ -302,7 +302,7 @@ p {
 .panel__header p:last-child {
   max-width: 720px;
   margin-bottom: 0;
-  color: var(--slate-500);
+  color: var(--text-muted);
 }
 
 .panel__header--split,
@@ -323,7 +323,7 @@ p {
 }
 
 .section-heading-row p {
-  color: var(--slate-500);
+  color: var(--text-muted);
   font-size: 0.86rem;
 }
 
@@ -541,7 +541,7 @@ p {
 
 .field-help {
   margin: 0;
-  color: var(--slate-500);
+  color: var(--text-muted);
   font-size: 0.74rem;
   line-height: 1.4;
 }
@@ -570,7 +570,7 @@ p {
 
 .input-with-unit > span:last-child {
   padding: 0 0.7rem;
-  color: var(--slate-500);
+  color: var(--text-muted);
   font-size: 0.78rem;
   font-weight: 800;
 }
@@ -595,7 +595,7 @@ p {
   min-height: 1.2rem;
   margin: 0;
   padding: 0 1.2rem 1.1rem;
-  color: var(--slate-500);
+  color: var(--text-muted);
   font-size: 0.78rem;
 }
 
@@ -635,7 +635,7 @@ p {
 
 .advanced-disclosure summary small {
   margin-top: 0.2rem;
-  color: var(--slate-500);
+  color: var(--text-muted);
   font-size: 0.78rem;
 }
 
@@ -677,7 +677,7 @@ p {
 
 .empty-inline {
   padding: 0.9rem;
-  color: var(--slate-500);
+  color: var(--text-muted);
   background: var(--paper);
   border: 1px dashed var(--line);
   border-radius: var(--radius-sm);
@@ -718,7 +718,7 @@ p {
 }
 
 .target-result span {
-  color: var(--slate-500);
+  color: var(--text-muted);
   font-size: 0.74rem;
   text-transform: uppercase;
   font-weight: 800;
@@ -742,7 +742,7 @@ p {
 }
 
 .results-empty {
-  color: var(--slate-500);
+  color: var(--text-muted);
 }
 
 .results-empty strong {
@@ -807,7 +807,7 @@ p {
 
 .kpi-card span,
 .insight-card span {
-  color: var(--slate-500);
+  color: var(--text-muted);
   font-size: 0.76rem;
   font-weight: 800;
   letter-spacing: 0.025em;
@@ -831,7 +831,7 @@ p {
 
 .kpi-card small,
 .insight-card small {
-  color: var(--slate-500);
+  color: var(--text-muted);
   font-size: 0.74rem;
   line-height: 1.4;
 }
@@ -868,7 +868,7 @@ p {
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 0.4rem 1rem;
   margin-top: 0.75rem;
-  color: var(--slate-500);
+  color: var(--text-muted);
   font-size: 0.76rem;
 }
 
@@ -987,7 +987,7 @@ p {
   flex-wrap: wrap;
   gap: 1rem;
   margin-top: 0.65rem;
-  color: var(--slate-500);
+  color: var(--text-muted);
   font-size: 0.78rem;
 }
 
@@ -1098,7 +1098,7 @@ td {
   justify-content: space-between;
   gap: 1rem;
   margin-top: 0.85rem;
-  color: var(--slate-500);
+  color: var(--text-muted);
   font-size: 0.8rem;
 }
 
@@ -1138,7 +1138,7 @@ td {
 }
 
 .saved-card span {
-  color: var(--slate-500);
+  color: var(--text-muted);
   font-size: 0.76rem;
 }
 
@@ -1229,7 +1229,7 @@ td {
 }
 
 .comparison-result-card__heading > div:first-child > span {
-  color: var(--slate-500);
+  color: var(--text-muted);
   font-size: 0.78rem;
   font-weight: 800;
   text-transform: uppercase;
@@ -1272,7 +1272,7 @@ td {
 }
 
 .comparison-result-card dt {
-  color: var(--slate-500);
+  color: var(--text-muted);
   font-size: 0.75rem;
 }
 
@@ -1313,7 +1313,7 @@ td {
 
 .guide-grid article p {
   margin-bottom: 0;
-  color: var(--slate-500);
+  color: var(--text-muted);
   font-size: 0.88rem;
 }
 
@@ -1344,13 +1344,13 @@ td {
   max-width: 880px;
   padding: 0 1.2rem 1rem;
   margin: 0;
-  color: var(--slate-500);
+  color: var(--text-muted);
 }
 
 .app-disclaimer {
   margin: 1rem 0 0;
   padding: 1rem;
-  color: var(--slate-500);
+  color: var(--text-muted);
   background: var(--paper-soft);
   border-radius: var(--radius-md);
   font-size: 0.8rem;
@@ -1408,6 +1408,10 @@ td {
     flex-direction: column;
   }
 
+  .app-header__identity {
+    width: 100%;
+  }
+
   .app-header__links {
     width: 100%;
   }
@@ -1417,6 +1421,9 @@ td {
   }
 
   .app-header__name {
+    max-width: none;
+    overflow: visible;
+    text-overflow: clip;
     white-space: normal;
   }
 
