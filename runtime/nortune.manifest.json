@@ -4,14 +4,14 @@
   "runtimePath": "public/calculators/loan-repayment-calculator/app/",
   "files": [
     {
-      "path": "assets/index-Bo5rV5V2.css",
-      "bytes": 22830,
-      "sha256": "1f2f143c956ee021eb6be7b5dd489233d9fb6d0b1c38dacfb3e426ab63fb5aa1"
-    },
-    {
       "path": "assets/index-DBlSM0Iu.js",
       "bytes": 140787,
       "sha256": "9bfe0c65052adb0f960a95b663b8b4db625704c4f45e885aa2d57819e82112a9"
+    },
+    {
+      "path": "assets/index-Dh8N1_QT.css",
+      "bytes": 22830,
+      "sha256": "1f2f143c956ee021eb6be7b5dd489233d9fb6d0b1c38dacfb3e426ab63fb5aa1"
     },
     {
       "path": "assets/nortune-runtime-enhancements-dcbe709c.js",
@@ -26,7 +26,7 @@
     {
       "path": "index.html",
       "bytes": 1973,
-      "sha256": "c2268aa33931605d6021facdc5393ddb29ad7f14a99b875b8ecc41a313749834"
+      "sha256": "8ef97483868dbee079b8dc3d8dab4f5d6c243da3d6ed3cb82d9512470cadf544"
     }
   ]
 }
